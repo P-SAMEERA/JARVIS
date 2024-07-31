@@ -1,0 +1,193 @@
+```python
+def add_numbers(num1, num2):
+  """Adds two numbers together.
+
+  Args:
+    num1: The first number to add.
+    num2: The second number to add.
+
+  Returns:
+    The sum of the two numbers.
+  """
+
+  return num1 + num2
+```
+
+2024-05-30 20:18:23.784794
+
+```python
+def add_two_numbers(a, b):
+  """Adds two numbers together.
+
+  Args:
+    a: The first number to add.
+    b: The second number to add.
+
+  Returns:
+    The sum of the two numbers.
+  """
+
+  return a + b
+```
+
+2024-05-31 10:31:17.159842
+
+4
+
+2024-05-31 10:33:28.322525
+
+```python
+def add_numbers(a, b):
+  """
+  Adds two numbers together.
+
+  Args:
+    a: The first number.
+    b: The second number.
+
+  Returns:
+    The sum of the two numbers.
+  """
+
+  return a + b
+```
+
+2024-06-27 20:22:12.025404
+
+```python
+# Get the two numbers from the user
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+# Add the two numbers
+sum = num1 + num2
+
+# Print the sum
+print("The sum of the two numbers is:", sum)
+```
+
+2024-06-28 10:21:47.429017
+
+```python
+# This Python program adds two numbers.
+
+# Get the first number from the user.
+first_number = input("Enter the first number: ")
+
+# Get the second number from the user.
+second_number = input("Enter the second number: ")
+
+# Convert the strings to integers.
+first_number = int(first_number)
+second_number = int(second_number)
+
+# Add the two numbers.
+sum = first_number + second_number
+
+# Print the sum.
+print("The sum is", sum)
+```
+
+2024-06-28 10:36:30.201558
+
+Here is a simple Java code to add two numbers:
+
+```
+import java.util.Scanner;
+
+public class AddTwoNumbers {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the two numbers from the user
+        System.out.print("Enter the first number: ");
+        int firstNumber = scanner.nextInt();
+        System.out.print("Enter the second number: ");
+        int secondNumber = scanner.nextInt();
+
+        // Add the two numbers
+        int sum = firstNumber + secondNumber;
+
+        // Print the sum
+        System.out.println("The sum of the two numbers is: " + sum);
+    }
+}
+```
+
+2024-06-30 18:42:57.987724
+
+```javascript
+import React, { useEffect, useState } from "react";
+import { getAuth, onAuthStateChanged } from "firebase/auth";
+
+const Home = () => {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const auth = getAuth();
+    onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setUser(user);
+      } else {
+        setUser(null);
+      }
+    });
+  }, []);
+
+  return (
+    <>
+      {user ? (
+        <div>
+          <h1>Welcome {user.displayName}</h1>
+          <p>Email: {user.email}</p>
+          <p>Photo URL: {user.photoURL}</p>
+        </div>
+      ) : (
+        <div>No user is signed in.</div>
+      )}
+    </>
+  );
+};
+
+export default Home;
+```
+
+2024-06-30 18:58:56.559413
+
+```python
+def add_two_numbers(a, b):
+    """
+    This function adds two numbers together.
+
+    Args:
+        a (int): The first number.
+        b (int): The second number.
+
+    Returns:
+        int: The sum of the two numbers.
+    """
+
+    return a + b
+```
+
+2024-07-01 16:43:15.933942
+
+```python
+# This Python program adds two numbers.
+
+# Get the first number from the user.
+num1 = float(input("Enter the first number: "))
+
+# Get the second number from the user.
+num2 = float(input("Enter the second number: "))
+
+# Add the two numbers.
+sum = num1 + num2
+
+# Print the sum of the two numbers.
+print("The sum of the two numbers is:", sum)
+```
+
+2024-07-08 10:59:43.031612
+

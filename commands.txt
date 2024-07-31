@@ -1,0 +1,17 @@
+task { command }
+dir
+
+cd [directory]
+cd Documents
+
+mkdir [directory]
+mkdir new_folder
+
+copy [source] [destination]
+copy file.txt D:\Backup\file.txt
+
+del [filename]
+del oldfile.txt
+
+2024-06-20 22:48:46.477501
+
