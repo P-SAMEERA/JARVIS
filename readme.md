@@ -134,7 +134,7 @@ Populate `assets/` with the six sound files referenced in `CONFIG["SOUNDS"]`, or
 ### 4. Run
 
 ```bash
-python jarvis.py
+python AI.py
 ```
 
 ---
