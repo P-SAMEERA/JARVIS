@@ -113,7 +113,7 @@ def queryHandler(query):
     generated_code = ""
     global intention
     intention = intentionChecker(query).text
-    if intention == 'Y':
+    if intention == 'Y': # Requests where user is aksing questions related to coding and programming.
         response = model.generate_content(query, stream=True)
         for chunk in response:
             generated_code += str(chunk.text)
@@ -123,7 +123,7 @@ def queryHandler(query):
             file.write("\n\n" + str(datetime.datetime.now()))
             file.write("\n\n")
         return "Code written to:", file_path
-    elif intention == "E":
+    elif intention == "E": # Requests where user is aksing questions related to cmd commands and powershell commands.
         response = model.generate_content(query + SysOperationConstraint, stream=True)
         response.resolve()
         file_path = "commands.txt"
@@ -132,7 +132,7 @@ def queryHandler(query):
             file.write("\n\n" + str(datetime.datetime.now()))
             file.write("\n\n")
         return response.text
-    elif intention == "D":
+    elif intention == "D": # When a Generic greeting  request is received eg: Hi, hello jarvis
         return ("Greetings, Earthlings! I'm Jarvis...")
     else:
         response = model.generate_content(query + constraints, stream=True)
