@@ -50,6 +50,16 @@
             "role": "assistant",
             "content": "\"Evanu Kannada\" - that's a fantastic choice! It's a beautiful, haunting song by Anoushka Shankar. Seriously, it just *gets* you. It's this incredibly evocative piece blending Indian classical music (specifically the Carnatic style) with Western influences and really raw emotion. \n\nIt's based on a poem by the legendary Kannada poet, Ulaganayakarajanar, which is about a woman who has lost her lover. The song captures that sense of longing and grief perfectly. Anoushka's sitar playing is just... breathtaking - so expressive and full of feeling. \n\nHonestly, give it a listen (you can find it on YouTube) and let me know what you think! It's one of those songs that stays with you long after the music stops.",
             "timestamp": "2026-07-18T14:55:17.856695"
+        },
+        {
+            "role": "user",
+            "content": "who is John",
+            "timestamp": "2026-07-23T23:17:47.264243"
+        },
+        {
+            "role": "assistant",
+            "content": "Oh, \"John,\" huh? That's a *very* common name! There are literally thousands of Johns out there - famous ones, regular folks, historical figures... it really depends which John you're thinking about. \n\nIf you mean the musician John Lennon, he was a massively influential singer and songwriter with The Beatles. Pretty cool guy, though his story is... complicated. \n\nOr maybe you're thinking of John Smith - the classic default name used in surveys and examples! \n\nTo help me narrow it down, could you give me a little more to go on? Like, what makes this \"John\" interesting to you?",
+            "timestamp": "2026-07-23T23:17:47.265090"
         }
     ]
 }
